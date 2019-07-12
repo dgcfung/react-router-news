@@ -46,6 +46,7 @@ This assignment is meant to reinforce what we have already learned and for you g
 - [React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router) lesson
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) and [basic example](https://reacttraining.com/react-router/web/example/basic)
 - [Lifting State Up](https://git.generalassemb.ly/sei-nyc-cicadas/lifting-state-up) lesson
+- [Forms in React](https://git.generalassemb.ly/sei-nyc-cicadas/react-forms) lesson
 
 ## Bonus
 - Create an input field that allows you to query for different topics. Hmmm, I wonder how many articles there are about cicadas???
