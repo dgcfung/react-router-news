@@ -30,7 +30,7 @@
 
 
 ## Tips:
--[React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router)
+- [React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router) lesson
 
 ## Bonus
 - Create an input field that allows you to query for different topics. Hmmm, I wonder how many articles there are about cicadas???
