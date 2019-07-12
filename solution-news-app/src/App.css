@@ -1,0 +1,175 @@
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: #db97ac;
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #f6e3e9;
+  height: 8vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3vh;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: #3b0012;
+}
+nav a:hover {
+  text-decoration: line-through;
+  color: #b8637d;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: #b8637d;
+  height: 30vh;
+}
+.header h1 {
+  margin: auto;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome-button {
+  cursor: pointer;
+  background-color: #f6e3e9;
+  border: none;
+  color: #3b0012;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 3vh;
+  margin: 0 20px;
+}
+
+.welcome-button:hover {
+  border: 1px solid red;
+  transform: scale(0.95);
+  transition: transform 0.2s;
+}
+.cicada {
+  background-image: url("./assets/cicada-48135_960_720.png");
+  width: 250px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 15px;
+  margin: 15px;
+  animation: fly 4s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes fly {
+  0% {
+    left: 20vw;
+    top: 50px;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    left: 40vw;
+    top: 30px;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    left: 60vw;
+    top: 50px;
+    transform: rotate(360deg);
+  }
+}
+.form {
+  text-align: center;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  background-color: #b8637d;
+  padding: 20px;
+  width: 100%;
+  color: #3b0012;
+  font-size: 20px;
+  font-weight: bold;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 10px;
+  height: auto;
+  background-color: #963855;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.article h1 {
+  color: #ecc1ce;
+}
+
+.all-articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-article {
+  width: 30%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100vw;
+}
+
+.article-text {
+  background-color: #3b0012;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  color: #f6e3e9;
+}
+
+.article-text a {
+  color: #ecc1ce;
+}
+.article-text p {
+  font-size: 20px;
+}
+
+.article-image {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+}
+
+@media all and (max-width: 560px) {
+  .body-article {
+    display: flex;
+    flex-direction: column;
+  }
+}
