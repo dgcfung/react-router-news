@@ -31,7 +31,7 @@ This assignment is meant to reinforce what we have already learned and for you g
 - **Make sure you are able to see your data before you do this step!** Create a `.env` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
 - Restart your server!
 - Put the `.env` file and your `node_modules` (this might already be there) in a `.gitignore` file.
-- Now replace the provided data with data you use in your API calls. 
+- Now replace the provided data you used above with data returned from your API calls. 
 
 **Styling is required for this assignment.** You may style your App in `App.css`.
 
