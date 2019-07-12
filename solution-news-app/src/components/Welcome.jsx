@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 const Welcome = props => {
   return (
     <div className="welcome-container">
-      <Header lastQuery="mikayda's" />
+      <Header lastQuery="cicada's" />
       <div className="cicada" />
       <h2>please select a category</h2>
       <div className="button-container">
