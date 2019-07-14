@@ -48,6 +48,16 @@ This assignment is meant to reinforce what we have already learned and for you g
 - [Lifting State Up](https://git.generalassemb.ly/sei-nyc-cicadas/lifting-state-up) lesson
 - [Forms in React](https://git.generalassemb.ly/sei-nyc-cicadas/react-forms) lesson
 
+
+If you want to see what a finished version of this lab might look like...
+
+```bash
+$ git checkout solution
+$ npm install
+$ npm run start
+```
+
+
 ## Bonus
 - Create an input field that allows you to query for different topics. Hmmm, I wonder how many articles there are about cicadas???
 - A button that filters out articles by news source.  (i.e., a button that returns all the news from The New York Times)
