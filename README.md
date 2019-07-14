@@ -17,7 +17,7 @@ This assignment is meant to reinforce what we have already learned and for you g
 
 ## React-Router:
 - We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
-- Using the provided data, create: 
+- Using _the provided data_, create: 
   - a navigation menu
   - a page that renders all "top news" articles
   - a page that renders all "cicadas" articles
