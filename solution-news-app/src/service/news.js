@@ -13,7 +13,7 @@ const fetchTopicsArticles = async topic => {
   const resp = await axios(
     `${BASE_URL}everything?q=${topic}&sortby=popularity&apiKey=${TOKEN}`
   );
-  console.log(resp);
+  //console.log(resp);
   return resp.data.articles;
 };
 
@@ -21,7 +21,7 @@ const fetchTopUSArticles = async topic => {
   const resp = await axios(
     `${BASE_URL}top-headlines?country=us&apiKey=${TOKEN}`
   );
-  console.log(resp);
+  //console.log(resp);
   return resp.data.articles;
 };
 

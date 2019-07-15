@@ -23,7 +23,7 @@ class App extends Component {
 
   async handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state);
+    //console.log(this.state);
     this.setState({
       lastQuery: this.state.formQuery
     });
