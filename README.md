@@ -53,6 +53,7 @@ If you want to see what a finished version of this lab might look like...
 
 ```bash
 $ git checkout solution
+$ cd solution-news-app
 $ npm install
 $ npm run start
 ```
