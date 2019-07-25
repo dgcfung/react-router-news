@@ -4,7 +4,7 @@
 
 #### React, React-Router, and the News, together at last!
 
-This assignment is meant to reinforce what we have already learned and for you get into a good workflow as we approach Project 2. We want you to flex your creative muscles by building out a simple app.
+This assignment is meant to reinforce what we have already learned in React and foor you to get into a good workflow as we approach Project 2. We want you to flex your creative muscles by building out a simple app.
 
 ![](https://res.cloudinary.com/jkarlin929/image/upload/v1550694937/ScreenshotNews_p8j2ul.png)
 
