@@ -11,7 +11,7 @@ This assignment is meant to reinforce what we have already learned in React and 
 ## Getting Started with React:
 - Fork and Clone this repo then `cd` into the repo name.
 - Run `create-react-app news-app` and `cd` into the `news-app`.
-- Make sure that your react app has `react router` installed (hint: refer back to the [React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router) lesson).
+- Make sure that your react app has `react-router-dom` installed (hint: refer back to the [React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router) lesson).
 - Run `npm start`.
 - Remove or delete the pre-loaded `create-react-app` stuff that comes with it (`logo.svg, app.test.js, serviceWorker`, the code in `App.css`). _This step is mandatory_.
 
