@@ -49,15 +49,6 @@ This assignment is meant to reinforce what we have already learned in React and 
 - [Forms in React](https://git.generalassemb.ly/sei-nyc-cicadas/react-forms) lesson
 
 
-If you want to see what a finished version of this lab might look like...
-
-```bash
-$ git checkout solution
-$ cd solution-news-app
-$ npm install
-$ npm run start
-```
-
 
 ## Bonus
 - Create an input field that allows you to query for different topics. Hmmm, I wonder how many articles there are about cicadas???
