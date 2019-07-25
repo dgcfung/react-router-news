@@ -47,6 +47,7 @@ This assignment is meant to reinforce what we have already learned in React and 
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) and [basic example](https://reacttraining.com/react-router/web/example/basic)
 - [Lifting State Up](https://git.generalassemb.ly/sei-nyc-cicadas/lifting-state-up) lesson
 - [Forms in React](https://git.generalassemb.ly/sei-nyc-cicadas/react-forms) lesson
+- refer to the [react-api](https://git.generalassemb.ly/sei-nyc-cicadas/react-api-practice) practice
 
 
 
