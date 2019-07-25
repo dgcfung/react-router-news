@@ -13,7 +13,7 @@ This assignment is meant to reinforce what we have already learned in React and 
 - Run `create-react-app news-app` and `cd` into the `news-app`.
 - Make sure that your react app has `react-router-dom` installed (hint: refer back to the [React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router) lesson).
 - Run `npm start`.
-- Remove or delete the pre-loaded `create-react-app` stuff that comes with it (`logo.svg, app.test.js, serviceWorker`, the code in `App.css`). _This step is mandatory_.
+- Remove or delete the pre-loaded `create-react-app` stuff that comes with it (`logo.svg, app.test.js, serviceWorker`, the code in `App.css`). 
 
 ## React-Router:
 - We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
