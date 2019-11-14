@@ -6,9 +6,8 @@ import { withRouter } from "react-router-dom";
 const Welcome = props => {
   return (
     <div className="welcome-container">
-      <Header lastQuery="cicada's" />
-      <div className="cicada" />
-      <h2>please select a category</h2>
+      <Header lastQuery="owl's" />
+      <h2>Please select a category</h2>
       <div className="button-container">
         <button
           className="welcome-button"
@@ -20,7 +19,7 @@ const Welcome = props => {
           className="welcome-button"
           onClick={() => props.history.push("/all-news")}
         >
-          sleepy
+          all news
         </button>
       </div>
     </div>

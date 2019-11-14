@@ -39,7 +39,6 @@ class App extends Component {
 
   async fetchTopicsNews() {
     const topicArticleData = await fetchTopicsArticles(this.state.formQuery);
-    //console.log(topicArticleData);
     this.setState({
       topicArticleData: topicArticleData,
       formQuery: ""
@@ -47,7 +46,6 @@ class App extends Component {
   }
   async fetchTopLiveNews() {
     const articleData = await fetchTopUSArticles();
-    //console.log(articleData);
     this.setState({
       usLiveArticleData: articleData
     });
@@ -61,8 +59,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav>
-          <Link to="/">Welcome</Link>
-          <Link to="/top-news">Top News</Link>
+          <Link to="/">Home</Link>
           <Link to="/all-news">Search </Link>
         </nav>
         <main>
