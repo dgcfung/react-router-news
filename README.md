@@ -11,7 +11,7 @@
 # News App
 
 **Task**: Your task is to build a News App 
-- Use React Router and seed data
+- Use React Router and [seed data](https://git.generalassemb.ly/sei-nyc-owls/react-router-news/blob/master/data/article-data.json)
 - Once your app is working with the seed data, integrate a third-party [News API](https://newsapi.org)
 
 ## Getting Started
