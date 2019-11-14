@@ -30,7 +30,6 @@ This assignment is meant to reinforce what we have already learned in React and 
 - For this assignment, we want you to use the [Everything](https://newsapi.org/docs/endpoints/everything) and top headlines [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) endpoints. Take a look through the docs to read through the data response object and request parameters(what is required?). Then, plan out what data you want to use in your app. (ex. Title and Description seem like a good start).
 - **Make sure you are able to see your data before you do this step!** Create a `.env.local` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
 - Restart your server!
-- Put the `.env` file and your `node_modules` (this might already be there) in a `.gitignore` file.
 - Now replace the provided data you used above with data returned from your API calls. 
 
 **Styling is required for this assignment.** You may style your App in `App.css`.
