@@ -11,7 +11,7 @@
 # News App
 
 **Task**: Your task is to build a News App 
-- Use React Router and [seed data](data/seed.json)
+- Use React Router and [seed data](data/seed.js)
 - Once your app is working with the seed data, integrate a third-party [News API](https://newsapi.org)
 
 ## Getting Started
@@ -23,7 +23,7 @@
 
 ## 1. React-Router & Seed Data
 - Move the `data` folder in the root of your repo into your `news-app/src/` folder
-- We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
+- We're building this app first with the provided data in [`/data/seed.js`](/data/seed.js).
 - Create your routes in your App component
 - Create a component for All News
 - Create a component of Top News
