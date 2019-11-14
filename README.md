@@ -4,6 +4,10 @@
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
 
+1. Fork
+1. Clone
+1. PR
+
 # React-Router and the News API
 
 This assignment is meant to reinforce what we have already learned in React and for you to get into a good workflow as we approach Project 2. We want you to flex your creative muscles by building out a simple app.
