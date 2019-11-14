@@ -36,8 +36,8 @@ Your task is integrate a third-party news api and remove the seed data
 
 - Go to the [News API](https://newsapi.org/), create an account and sign up for an API key
 - For this assignment, we want you to use:
-- Business: https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=<YOUR_API_KEY> 
-- Bitcoin: https://newsapi.org/v2/everything?q=bitcoin&from=2019-10-14&sortBy=publishedAt&apiKey=<YOUR_API_KEY>
+  - Business: https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=<YOUR_API_KEY> 
+  - Bitcoin: https://newsapi.org/v2/everything?q=bitcoin&from=2019-10-14&sortBy=publishedAt&apiKey=<YOUR_API_KEY>
 - **Make sure you are able to see your data in Postman before you do this step!** Create a `.env.local` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
 - Restart your server!
 - Now replace the provided seed data you used above with data returned from your API calls. 
