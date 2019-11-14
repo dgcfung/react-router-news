@@ -13,6 +13,7 @@ This assignment is meant to reinforce what we have already learned in React and 
 - Run `npm start`. 
 
 ## React-Router:
+- Move the `data` folder into your `src` folder
 - We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
 - Using _the provided data_, create: 
   - a navigation menu
