@@ -10,8 +10,7 @@ This assignment is meant to reinforce what we have already learned in React and 
 - Fork and Clone this repo then `cd` into the repo name.
 - Run `npx create-react-app .`
 - Install react router dom by running `npm install react-router-dom` 
-- Run `npm start`.
-- Remove or delete the pre-loaded `create-react-app` stuff that comes with it (`logo.svg, app.test.js, serviceWorker`, the code in `App.css`). 
+- Run `npm start`. 
 
 ## React-Router:
 - We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
