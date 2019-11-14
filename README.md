@@ -30,13 +30,15 @@
 
 ## 2. Adding the API
 
-Your task is to remove the seed data functionality and replace it with a news api
+Your task is integrate a third-party news api and remove the seed data
+
+> Architecture Thought Question: Where will you be doing your Axios API calls?
 
 - Go to the [News API](https://newsapi.org/), create an account and sign up for an API key
 - For this assignment, we want you to use the [Everything](https://newsapi.org/docs/endpoints/everything) and top headlines [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) endpoints. Take a look through the docs to read through the data response object and request parameters(what is required?). Then, plan out what data you want to use in your app. (ex. Title and Description seem like a good start).
 - **Make sure you are able to see your data in Postman before you do this step!** Create a `.env.local` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
 - Restart your server!
-- Now replace the provided data you used above with data returned from your API calls. 
+- Now replace the provided seed data you used above with data returned from your API calls. 
 
 ![](https://media.giphy.com/media/147JO3pIxNJ4oo/giphy.gif)
 
