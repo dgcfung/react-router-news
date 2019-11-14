@@ -10,12 +10,13 @@ This assignment is meant to reinforce what we have already learned in React and 
 
 ## Getting Started with React
 - Fork and Clone this repo then `cd` into the repo name.
-- Run `npx create-react-app .`
+- Run `npx create-react-app news-app`
+- cd into `news-app`
 - Install react router dom by running `npm install react-router-dom` 
 - Run `npm start`. 
 
 ## 1. React-Router
-- Move the `data` folder into your `src` folder
+- Move the `data` folder in the root of your repo into your `news-app/src/` folder
 - We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
 - Using _the provided data_, create: 
   - a navigation menu
