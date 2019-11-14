@@ -8,11 +8,13 @@
 1. Clone
 1. PR
 
-# React-Router and the News API
+# News App
 
-This assignment is meant to reinforce what we have already learned in React and for you to get into a good workflow as we approach Project 2. We want you to flex your creative muscles by building out a simple app.
+**Task**: Your task is to build a News App 
+- Use React Router and seed data
+- Once your app is working with the seed data, integrate a third-party news api
 
-## Getting Started with React
+## Getting Started
 - Fork and Clone this repo then `cd` into the repo name.
 - Run `npx create-react-app news-app`
 - cd into `news-app`
