@@ -2,15 +2,13 @@
 
 # React-Router and the News API
 
-#### React, React-Router, and the News, together at last!
-
 This assignment is meant to reinforce what we have already learned in React and for you to get into a good workflow as we approach Project 2. We want you to flex your creative muscles by building out a simple app.
 
 ![](https://res.cloudinary.com/jkarlin929/image/upload/v1550694937/ScreenshotNews_p8j2ul.png)
 
 ## Getting Started with React:
 - Fork and Clone this repo then `cd` into the repo name.
-- Run `create-react-app news-app` and `cd` into the `news-app`.
+- Run `npx create-react-app .`
 - Install react router dom by running `npm install react-router-dom` 
 - Run `npm start`.
 - Remove or delete the pre-loaded `create-react-app` stuff that comes with it (`logo.svg, app.test.js, serviceWorker`, the code in `App.css`). 
@@ -42,11 +40,11 @@ This assignment is meant to reinforce what we have already learned in React and 
 
 
 ## Tips:
-- [React Router](https://git.generalassemb.ly/sei-nyc-cicadas/react-router) lesson
+- [React Router](https://git.generalassemb.ly/sei-nyc-owls/react-router) lesson
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) and [basic example](https://reacttraining.com/react-router/web/example/basic)
-- [Lifting State Up](https://git.generalassemb.ly/sei-nyc-cicadas/lifting-state-up) lesson
-- [Forms in React](https://git.generalassemb.ly/sei-nyc-cicadas/react-forms) lesson
-- refer to the [react-api](https://git.generalassemb.ly/sei-nyc-cicadas/react-api-practice) practice
+- [Lifting State Up](https://git.generalassemb.ly/sei-nyc-owls/lifting-state-up) lesson
+- [Forms in React](https://git.generalassemb.ly/sei-nyc-owls/react-forms) lesson
+- refer to the [react-api](https://git.generalassemb.ly/sei-nyc-owls/react-api-practice) practice
 
 
 
