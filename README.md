@@ -45,7 +45,6 @@ Your task is integrate a third-party news api and remove the seed data
 
 ## Tips:
 - [React Router](https://git.generalassemb.ly/sei-nyc-owls/react-router) lesson
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom) and [basic example](https://reacttraining.com/react-router/web/example/basic)
 - [Lifting State Up](https://git.generalassemb.ly/sei-nyc-owls/lifting-state-up) lesson
 - [Forms in React](https://git.generalassemb.ly/sei-nyc-owls/react-forms) lesson
 - refer to the [react-api](https://git.generalassemb.ly/sei-nyc-owls/react-api-practice) practice
