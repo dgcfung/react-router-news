@@ -11,7 +11,7 @@
 # News App
 
 **Task**: Your task is to build a News App 
-- Use React Router and [seed data](data/seed.js)
+- Use React Router and [seed data](data)
 - Once your app is working with the seed data, integrate a third-party [News API](https://newsapi.org)
 
 ## Getting Started
@@ -23,10 +23,10 @@
 
 ## 1. React-Router & Seed Data
 - Move the `data` folder in the root of your repo into your `news-app/src/` folder
-- We're building this app first with the provided data in [`/data/seed.js`](/data/seed.js).
+- We're building this app first with the seed data in [`/data/`](/data).
 - Create your routes in your App component
-- Create a component for All News
-- Create a component of Top News
+- Create a component for Business News
+- Create a component of Bitcoin News
 
 ## 2. Adding the API
 
@@ -35,12 +35,12 @@ Your task is integrate a third-party news api and remove the seed data
 > Architecture Thought Question: Where will you be doing your Axios API calls?
 
 - Go to the [News API](https://newsapi.org/), create an account and sign up for an API key
-- For this assignment, we want you to use the [Everything](https://newsapi.org/docs/endpoints/everything) and [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) endpoints. Take a look through the docs to read through the data response object and request parameters(what is required?). Then, plan out what data you want to use in your app. (ex. Title and Description seem like a good start).
+- For this assignment, we want you to use:
+- Business: https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=<YOUR_API_KEY> 
+- Bitcoin: https://newsapi.org/v2/everything?q=bitcoin&from=2019-10-14&sortBy=publishedAt&apiKey=<YOUR_API_KEY>
 - **Make sure you are able to see your data in Postman before you do this step!** Create a `.env.local` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
 - Restart your server!
 - Now replace the provided seed data you used above with data returned from your API calls. 
-
-![](https://media.giphy.com/media/147JO3pIxNJ4oo/giphy.gif)
 
 
 ## Tips:
