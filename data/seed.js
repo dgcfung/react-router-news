@@ -1,4 +1,4 @@
-{
+const news = {
   "top-news": [
     {
       "source": {
@@ -407,3 +407,5 @@
     }
   ]
 }
+
+export default news
