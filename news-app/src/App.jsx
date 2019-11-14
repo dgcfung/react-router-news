@@ -2,6 +2,7 @@ import React from 'react';
 import Axios from 'axios'
 import { NavLink, Route } from 'react-router-dom'
 
+import Home from './Home'
 import Bitcoin from './Bitcoin'
 import Business from './Business'
 // import { BITCOIN } from './data/bitcoinSeed'
@@ -41,19 +42,24 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app-container">
         <nav>
-          <NavLink exact activeClassName="active" to="/">
+          <NavLink exact to="/">
             Home
           </NavLink>
-            <NavLink exact to="/business">
-              Business
+          <NavLink exact to="/business">
+            Business
           </NavLink>
-            <NavLink exact to="/bitcoin">
-              Bitcoin
+          <NavLink exact to="/bitcoin">
+            Bitcoin
           </NavLink>
         </nav>
         <main>
+          <Route
+            exact
+            path="/"
+            component={() => <Home />}
+          />
           <Route
             exact
             path="/business"
