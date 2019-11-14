@@ -21,7 +21,7 @@
 - Install react router dom by running `npm install react-router-dom` 
 - Run `npm start`. 
 
-## 1. React-Router
+## 1. React-Router & Seed Data
 - Move the `data` folder in the root of your repo into your `news-app/src/` folder
 - We're building this app first with the provided data in [`/data/article-data.json`](/data/article-data.json).
 - Create your routes in your App component
@@ -29,6 +29,9 @@
 - Create a component of Top News
 
 ## 2. Adding the API
+
+Your task is to remove the seed data functionality and replace it with a news api
+
 - Go to the [News API](https://newsapi.org/), create an account and sign up for an API key
 - For this assignment, we want you to use the [Everything](https://newsapi.org/docs/endpoints/everything) and top headlines [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) endpoints. Take a look through the docs to read through the data response object and request parameters(what is required?). Then, plan out what data you want to use in your app. (ex. Title and Description seem like a good start).
 - **Make sure you are able to see your data in Postman before you do this step!** Create a `.env.local` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
