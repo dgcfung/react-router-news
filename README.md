@@ -18,7 +18,7 @@ This assignment is meant to reinforce what we have already learned in React and 
 - Using _the provided data_, create: 
   - a navigation menu
   - a page that renders all "top news" articles
-  - a page that renders all "owls" articles
+  - a page that renders "all news" articles
 - Create at least **4 components** (including the above components) to use for your app.
 - Use **react router** to switch between looking at _top headlines_ and _at least one other category_ of news articles.
 
