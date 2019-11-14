@@ -1,10 +1,12 @@
+<p align="center">
+  <img src="https://i.ibb.co/hD1kwhG/react-router-news.gif"/>
+</p>
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
 
 # React-Router and the News API
 
 This assignment is meant to reinforce what we have already learned in React and for you to get into a good workflow as we approach Project 2. We want you to flex your creative muscles by building out a simple app.
-
-![](https://res.cloudinary.com/jkarlin929/image/upload/v1550694937/ScreenshotNews_p8j2ul.png)
 
 ## Getting Started with React
 - Fork and Clone this repo then `cd` into the repo name.
