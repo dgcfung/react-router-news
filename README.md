@@ -35,7 +35,7 @@ Your task is integrate a third-party news api and remove the seed data
 > Architecture Thought Question: Where will you be doing your Axios API calls?
 
 - Go to the [News API](https://newsapi.org/), create an account and sign up for an API key
-- For this assignment, we want you to use the [Everything](https://newsapi.org/docs/endpoints/everything) and top headlines [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) endpoints. Take a look through the docs to read through the data response object and request parameters(what is required?). Then, plan out what data you want to use in your app. (ex. Title and Description seem like a good start).
+- For this assignment, we want you to use the [Everything](https://newsapi.org/docs/endpoints/everything) and [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) endpoints. Take a look through the docs to read through the data response object and request parameters(what is required?). Then, plan out what data you want to use in your app. (ex. Title and Description seem like a good start).
 - **Make sure you are able to see your data in Postman before you do this step!** Create a `.env.local` file in the `news-app` directory. `REACT_APP_API_KEY` would be a good variable name to assign to your API key!  
 - Restart your server!
 - Now replace the provided seed data you used above with data returned from your API calls. 
@@ -51,7 +51,7 @@ Your task is integrate a third-party news api and remove the seed data
 
 
 ## Bonus
-- Create an input field that allows you to query for different topics. Hmmm, I wonder how many articles there are about cicadas???
+- Create an input field that allows you to query for different topics. Hmmm, I wonder how many articles there are about owls???
 - A button that filters out articles by news source.  (i.e., a button that returns all the news from The New York Times)
 - Use [Moment](https://momentjs.com/) to format the `publishedAt` date. Hmmm, what format is it in right now?  
 - Use a component library to style your app! [React Bootstrap](https://react-bootstrap.github.io/) or [Ant-Design](https://ant.design/) (These are just examples, there are many others)
