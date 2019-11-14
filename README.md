@@ -12,7 +12,7 @@
 
 **Task**: Your task is to build a News App 
 - Use React Router and seed data
-- Once your app is working with the seed data, integrate a third-party news api
+- Once your app is working with the seed data, integrate a third-party [News API](https://newsapi.org)
 
 ## Getting Started
 - Fork and Clone this repo then `cd` into the repo name.
